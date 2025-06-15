@@ -25,7 +25,7 @@
 
     <!-- Tampilan Website Header-->
     <div class="container" style="text-align: center; margin-top: 80px;">
-        <img src="{{('images/LaravelLogo.png')}}" style="width: 150px">
+        <img src="{{('images/Logo_Lab_Mikro.png')}}" style="width: 150px">
         <h2>Monitoring Nilai Sensor Secara Realtime <br> Menggunakan Framework Laravel</h2>
     </div>
 
