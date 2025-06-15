@@ -34,7 +34,7 @@
       <div class="row" style="text-align: center;">
         <div class="col-md-6">
           <div class="card">
-            <div class="card-header" style="background-color: red; color: white">
+            <div class="card-header" style="background-color:rgb(0, 36, 102); color: white">
               <h4>SUHU</h4>
             </div>
             <div class="card-body">
@@ -46,7 +46,7 @@
         </div>
         <div class="col-md-6">
           <div class="card">
-            <div class="card-header" style="background-color: red; color: white">
+            <div class="card-header" style="background-color: rgb(0, 36, 102); color: white">
               <h4>Kelembapan</h4>
             </div>
             <div class="card-body">
@@ -61,7 +61,7 @@
     <!-- Tampilan Logo -->
 
     <div class="container" style="text-align: center; margin-top: 20px">
-      <img src="{{('images/SocialMedia.png')}}">
+      <!-- <img src="{{('images/SocialMedia.png')}}"> -->
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
