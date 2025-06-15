@@ -11,4 +11,6 @@ Route::get('/bacasuhu', [SensorLaravel::class, 'bacasuhu']);
 
 Route::get('/bacakelembapan', [SensorLaravel::class, 'bacakelembapan']);
 
-Route::get('/simpan/{nilaisuhu}/{nilaikelembapan}' , [SensorLaravel::class, 'simpansensor']);
+Route::get('/bacanama', [SensorLaravel::class, 'bacanama']);
+
+Route::get('/simpan/{nilainama}/{nilaisuhu}/{nilaikelembapan}' , [SensorLaravel::class, 'simpansensor']);

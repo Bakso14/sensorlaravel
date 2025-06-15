@@ -8,5 +8,5 @@ class MSensor extends Model
 {
     protected $table = 'tb_sensor';
     protected $primaryKey = 'id';
-    protected $fillable = ['suhu', 'kelembapan'];
+    protected $fillable = ['nama', 'suhu', 'kelembapan'];
 }

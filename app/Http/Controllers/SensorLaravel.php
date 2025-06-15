@@ -23,8 +23,16 @@ class SensorLaravel extends Controller
         return view('bacakelembapan',['nilaisensor' => $sensor]);
     }
 
+    public function bacanama()
+    {
+        //baca nilai
+        $sensor = MSensor::select('*')->get();
+        //kirim ke tampilan bacasuhu (buat view bacasuhu)
+        return view('bacanama',['nilaisensor' => $sensor]);
+    }
+
     public function simpansensor()
     {
-        MSensor::where('id','1')->update(['suhu' => request()->nilaisuhu, 'kelembapan' => request()->nilaikelembapan]);
+        MSensor::where('id','1')->update(['nama' => request()->nilainama, 'suhu' => request()->nilaisuhu, 'kelembapan' => request()->nilaikelembapan]);
     }
 }

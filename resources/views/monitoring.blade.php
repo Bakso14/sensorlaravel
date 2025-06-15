@@ -15,7 +15,8 @@
       $(document).ready(function(){
         setInterval(function() {
           $("#suhu").load("{{url('bacasuhu')}}");    
-          $("#kelembapan").load("{{url('bacakelembapan')}}");        
+          $("#kelembapan").load("{{url('bacakelembapan')}}");    
+          $("#nama").load("{{url('bacanama')}}");      
         }, 1000);
       });
     </script>
@@ -24,9 +25,14 @@
   <body>
 
     <!-- Tampilan Website Header-->
-    <div class="container" style="text-align: center; margin-top: 80px;">
-        <img src="{{('images/Logo_Lab_Mikro.png')}}" style="width: 150px">
-        <h2>Monitoring Nilai Sensor Secara Realtime <br> Menggunakan Protokol HTML</h2>
+    <div class="container" style="text-align: center; margin-top: 50px;">
+      <img src="{{('images/Logo_Lab_Mikro.png')}}" style="width: 150px">
+      <h2>Monitoring Nilai Sensor Secara Realtime <br> Menggunakan Protokol HTML <br> <br> </h2>
+      <br>
+    </div>
+
+    <div class="container" style="text-align: center;">
+      <h4>Updater &emsp;: <span id="nama">wew</span></h4>
     </div>
 
     <!-- Tampilan Nilai Sensor -->
