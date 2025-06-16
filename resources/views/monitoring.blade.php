@@ -27,7 +27,7 @@
     <!-- Tampilan Website Header-->
     <div class="container" style="text-align: center; margin-top: 50px;">
       <img src="{{('images/Logo_Lab_Mikro.png')}}" style="width: 150px">
-      <h2>Monitoring Nilai Sensor Secara Realtime <br> Menggunakan Protokol HTML <br> <br> </h2>
+      <h2>Monitoring Nilai Sensor Secara Realtime <br> Menggunakan Protokol Http <br> <br> </h2>
       <br>
     </div>
 
